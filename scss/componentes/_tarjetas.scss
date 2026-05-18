@@ -1,0 +1,18 @@
+.tarjeta-servicio {
+    background: $blanco;
+    padding: 30px;
+    border-radius: 20px;
+    border-bottom: 5px solid $violeta-principal;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+    text-align: center;
+
+    &:hover {
+        transform: translateY(-10px); /* Animación / Transformación exigida */
+    }
+
+    .icono-servicio {
+        font-size: 3rem;
+        margin-bottom: 15px;
+    }
+}

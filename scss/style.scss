@@ -1,0 +1,12 @@
+// 1. Base y Configuración
+@import 'base/variables';
+@import 'base/global';
+
+// 2. Elementos de Maquetación (Layout)
+@import 'layout/header';
+@import 'layout/footer';
+
+// 3. Componentes Específicos
+@import 'componentes/botones';
+@import 'componentes/tarjetas';
+@import 'componentes/acordeon';

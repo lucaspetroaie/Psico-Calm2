@@ -1,0 +1,75 @@
+@charset "UTF-8";
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9fb;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+.navbar {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+.navbar .nombre-logo {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #9f7bc3;
+  letter-spacing: 1px;
+}
+
+footer {
+  background-color: #6a4c93;
+  color: #ffffff;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.btn-violeta {
+  background-color: #9f7bc3;
+  color: #ffffff;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+.btn-violeta:hover {
+  background-color: #6a4c93;
+  color: #ffffff;
+}
+
+.form-control:focus {
+  border-color: #9f7bc3;
+  box-shadow: 0 0 0 0.25rem rgba(159, 123, 195, 0.25);
+}
+
+.tarjeta-servicio {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  border-bottom: 5px solid #9f7bc3;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+.tarjeta-servicio:hover {
+  transform: translateY(-10px); /* Animación / Transformación exigida */
+}
+.tarjeta-servicio .icono-servicio {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.accordion-item .accordion-button:not(.collapsed) {
+  background-color: #f3eff9;
+  color: #6a4c93;
+  box-shadow: none;
+}
+.accordion-item .accordion-button:focus {
+  box-shadow: 0 0 0 0.25rem rgba(159, 123, 195, 0.25);
+}/*# sourceMappingURL=style.css.map */
