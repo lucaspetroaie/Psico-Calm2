@@ -1,23 +1,22 @@
-# Psico & Calm - Proyecto de Psicología
+# Psico & Calm - Sitio Profesional de Psicología
 
-Este es el segundo preentregable para el curso de **Desarrollo Web** en Coderhouse.
+Este es el proyecto final entregable para el curso de **Desarrollo Web** en Coderhouse.
 
 ## Descripción
-Sitio web profesional para un consultorio de psicología que busca transmitir calma, confianza y profesionalismo.
+Sitio web adaptivo, optimizado y profesional diseñado para un consultorio terapéutico de psicología clínica y salud sexual, enfocado en transmitir calma, empatía y privacidad.
 
-## Tecnologías Utilizadas
-* **HTML5**: Estructura semántica (header, nav, main, section, article, footer).
-* **CSS3**: Diseño personalizado, animaciones (keyframes) y tipografía.
-* **Flexbox**: Utilizado para la navegación, tarjetas de servicios y la sección sobre mí.
-* **Responsive Design**: El sitio se adapta a diferentes dispositivos.
+## Tecnologías y Metodologías Utilizadas
+* **HTML5**: Maquetación semántica estructurada en 5 secciones independientes.
+* **SASS**: Arquitectura modular de estilos mediante parciales (`@import`), variables globales y anidamiento (*nesting*).
+* **Bootstrap 5**: Integración del sistema de grillas responsivas (`row`, `col`) y componentes dinámicos avanzados (`Navbar`, `Accordion`).
+* **SEO & Accesibilidad**: Optimización con etiquetas meta, descripciones únicas por página y estructuración correcta de encabezados (`h1`-`h3`).
+* **Control de Versiones**: Flujo de trabajo Git subido a repositorio remoto en GitHub.
 
-## Estructura del Proyecto
-* `index.html`: Página principal.
-* `servicios.html`: Detalle de atención y especialidades.
-* `nosotros.html`: Perfil profesional y metodología.
-* `contacto.html`: Formulario de contacto funcional (maquetado).
-* `/css`: Carpeta con los estilos.
-* `/imagenes`: Recursos visuales del sitio.
+## Secciones del Sitio
+1. **Inicio (`index.html`)**: Presentación del consultorio y llamada a la acción principal.
+2. **Servicios (`servicios.html`)**: Catálogo estructurado de las modalidades terapéuticas.
+3. **Nosotros (`nosotros.html`)**: Información institucional, perfil y pilares metodológicos.
+4. **Preguntas Frecuentes (`faq.html`)**: Acordeón interactivo con dudas comunes de consultantes.
+5. **Contacto (`contacto.html`)**: Formulario estructurado para reserva de turnos.
 
 **Alumno:** Lucas Petroaie
-**Comisión:** [79380]
